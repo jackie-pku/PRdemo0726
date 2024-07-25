@@ -1,5 +1,10 @@
 import os
 
+"""
+这是一个简单的demo
+"""
+
+print("hello,secagent!!!")
 # 清除代理设置
 os.environ.pop('http_proxy', None)
 os.environ.pop('https_proxy', None)
